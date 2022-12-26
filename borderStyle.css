@@ -1,0 +1,20 @@
+#border{
+  border-style: solid;/*all 4 sides solid*/
+  /* for lining border (box)---can be dotted*/
+  /*border-style: outset(inset)(double--for double lines);
+
+  border-style: solid dashed none dotted (for all different sides..top right bottom left) ;
+  */
+  border-width: 5px;
+  /* top right bottom left all four sides*/
+
+  border-color: red blue green black;
+
+  /*-----------shortcut---------*/
+  border:5px solid green;
+   border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color:red;
+  border-radius: 10px;
+ 
+}
